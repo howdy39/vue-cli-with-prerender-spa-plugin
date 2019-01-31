@@ -8,6 +8,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'App',
+  metaInfo: {
+    title: 'Default Title',
+    titleTemplate: '%s | My Awesome Webapp'
+  }
+}
+</script>
+
+
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

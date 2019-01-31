@@ -11,6 +11,14 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'home',
+  metaInfo: {
+    title: 'My Awesome Webapp',
+    titleTemplate: null,
+    meta: [
+      { description: 'Home.vueのdescription' },
+      { 'og:title': 'Home.vueのog:title' }
+    ]
+  },
   components: {
     HelloWorld
   }
